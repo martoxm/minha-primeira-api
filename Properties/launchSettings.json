@@ -8,7 +8,7 @@
       "sslPort": 44309
     }
   },
-  "profiles": {
+  "profiles": { // Profiles é onde estão as configurações de execução do projeto
     "http": {
       "commandName": "Project",
       "dotnetRunMessages": true,
@@ -34,7 +34,7 @@
       "launchBrowser": true,
       "launchUrl": "swagger",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development"// Variável de ambiente para definir o ambiente de desenvolvimento
       }
     }
   }
