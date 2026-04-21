@@ -8,8 +8,16 @@ public class UserController : ControllerBase
 {
 
     [HttpGet]
+    [ProducesResponseType(typeof(Response), StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(string), StatusCodes.Status400BadRequest)]
     public IActionResult Get()
     {
-        return Ok("Gabriel");
+        var response = new Response
+        {
+            Age = 0,
+            Name = "Gabriel"
+
+        };
+        return Ok(response);
     }
 }
