@@ -361,3 +361,18 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Configurações com segredos locais (connection strings, API keys)
+appsettings.Development.json
+appsettings.Local.json
+
+# User Secrets do .NET (gerado pelo dotnet user-secrets)
+secrets.json
+
+# Arquivos de ambiente com variáveis sensíveis
+.env
+.env.local
+
+# JetBrains Rider (se usar no lugar do Visual Studio)
+.idea/
+*.sln.iml
